@@ -2,3 +2,4 @@ local
 Measure-Everything-*
 .build
 cpanfile.snapshot
+carton.success
