@@ -1,10 +1,11 @@
 package Measure::Everything::Adapter::Test;
 
 # ABSTRACT: Test Adapter: for testing...
-our $VERSION = '1.003'; # VERSION
 
 use strict;
 use warnings;
+
+our $VERSION = '1.003'; # VERSION
 
 use base qw(Measure::Everything::Adapter::Base);
 
