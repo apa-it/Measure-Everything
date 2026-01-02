@@ -23,10 +23,12 @@ sub import {
     }
 
     {
-        no strict 'refs';
+        no strict 'refs';    ## no critic (TestingAndDebugging::ProhibitNoStrict)
         my $varname = "$caller\::" . $target;
         *$varname = \$global_stats;
     }
+
+    return;
 }
 
 1;
